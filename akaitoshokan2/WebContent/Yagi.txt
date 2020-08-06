@@ -1,0 +1,11 @@
+YagiTest
+
+
+import java.util.function.Function;
+
+public class Java8Sample {
+    public static void main(String[] args) {
+        Function<String, Integer> function = string -> Integer.parseInt(string);
+        System.out.println(function.apply("12345"));
+    }
+}
